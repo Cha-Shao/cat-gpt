@@ -14,9 +14,16 @@ const Header = () => {
         'flex justify-between items-center h-16 px-4'
       )}
     >
-      <span className='font-bold text-xl'>Cat GPT</span>
+      <div className='flex items-center'>
+        <img
+          src="/logo.svg"
+          alt=""
+          className='w-8 mr-2'
+        />
+        <span className='font-bold text-xl'>Cat GPT</span>
+      </div>
       <button
-        className='rounded-lg border border-zinc-500/20 p-2 flex justify-center items-center'
+        className='rounded-lg border border-zinc-500/20 hover:bg-zinc-500/10 p-2 flex justify-center items-center'
         onClick={() => setExpand(true)}
       >
         <span className="icon-[ph--list-bold]" />

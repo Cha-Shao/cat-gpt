@@ -31,12 +31,12 @@ const Sidebar = () => {
             animate={{ x: '0' }}
             exit={{ x: '100%' }}
             transition={{ ease: 'easeInOut' }}
-            className="background rounded-l-2xl border border-zinc-500/20 w-4/5 h-full p-4"
+            className="background rounded-l-2xl border border-zinc-500/20 w-4/5 max-w-lg h-full p-4"
           >
             <div className="flex justify-between items-center mb-4">
               <span className="font-bold text-xl">Cat GPT</span>
               <button
-                className='rounded-lg border border-zinc-500/20 p-2 flex justify-center items-center'
+                className='rounded-lg border border-zinc-500/20 hover:bg-zinc-500/10 p-2 flex justify-center items-center'
                 onClick={() => setExpand(false)}
               >
                 <span className="icon-[ph--x-bold]" />
@@ -53,7 +53,7 @@ const Sidebar = () => {
               <span className="icon-[ph--broom-bold] text-xl mr-2" />
               <span>清除聊天记录</span>
             </button>
-            <a href="">
+            <a href="https://github.com/Cha-Shao/cat-gpt">
               <button className="py-2 px-4 w-full border border-zinc-500/20 rounded-lg hover:bg-zinc-500/10 flex items-center mb-2">
                 <span className="icon-[ph--github-logo-bold] text-xl mr-2" />
                 <span>源代码</span>

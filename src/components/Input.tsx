@@ -97,7 +97,7 @@ const Input = ({
         />
         <button
           className={classNames(
-            'absolute bottom-2 right-2',
+            'absolute bottom-2 right-2 background',
             'p-2 border border-zinc-500/20 rounded-lg'
           )}
           onClick={sendMessage}
