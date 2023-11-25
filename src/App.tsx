@@ -40,7 +40,7 @@ function App() {
         <Sidebar />
       </SidebarContext.Provider>
       <main
-        className='max-w-3xl mx-auto h-[calc(100vh-4rem)] overflow-y-scroll px-4 mt-16'
+        className='max-w-3xl mx-auto h-[calc(100vh-4rem)] overflow-y-scroll px-4 pr-2 mt-16'
       >
         <div ref={scrollRef} className="pb-16">
           <Index />
